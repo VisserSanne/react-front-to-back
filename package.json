@@ -6,6 +6,7 @@
   "scripts": {
     "start": "npm run start --prefix contact-keeper",
     "dev": "npm run dev --prefix contact-keeper",
+    "postinstall": "npm install --prefix contact-keeper && npm install --prefix contact-keeper/client",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix contact-keeper/client && npm run build --prefix contact-keeper/client"
   },
   "repository": {
