@@ -1,0 +1,8 @@
+{
+  "name": "contact-keeper",
+  "version": "1.0.0",
+  "description": "Contact manager app",
+  "scripts": {
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false cd frontend npm install && npm run build"
+  }
+}
