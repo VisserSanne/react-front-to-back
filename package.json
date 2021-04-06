@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node contact-keeper/server.js",
+    "start": "npm run start --prefix contact-keeper",
     "dev": "npm run dev --prefix contact-keeper",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix contact-keeper/client && npm run build --prefix contact-keeper/client"
   },
