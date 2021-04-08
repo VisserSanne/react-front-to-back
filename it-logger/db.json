@@ -1,0 +1,47 @@
+{
+  "logs": [
+    {
+      "message": "Changed network card in server 007",
+      "tech": "Sam Smith",
+      "attention": false,
+      "date": "2021-04-07T07:44:05.392Z",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "message": "Hard drive failed in workstation 002",
+      "attention": true,
+      "tech": "test Visser",
+      "date": "2021-04-08T15:24:10.408Z"
+    },
+    {
+      "id": 3,
+      "message": "1122 wireless up",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2021-04-08T15:32:03.722Z"
+    }
+  ],
+  "techs": [
+    {
+      "firstname": "1",
+      "lastname": "11",
+      "id": 1
+    },
+    {
+      "firstname": "test",
+      "lastname": "123",
+      "id": 3
+    },
+    {
+      "firstname": "John",
+      "lastname": "Doe",
+      "id": 4
+    },
+    {
+      "firstname": "Sam",
+      "lastname": "Smith",
+      "id": 5
+    }
+  ]
+}
